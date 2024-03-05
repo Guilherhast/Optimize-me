@@ -1,0 +1,43 @@
+html {
+	background-color: #4C062C;
+	display: flex;
+	justify-content: center;
+	place-items: center;
+}
+
+body {
+	background-color: white;
+	aspect-ratio: 9/10;
+	padding: 0px 10px;
+}
+h1{
+	background-color: black;
+	color:white;
+	margin: 0px -10px;
+	padding: 10px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+main>div {
+	width: 100%;
+	display: flex;
+	background-color: red;
+}
+
+main>div>button {
+	flex-grow: 1;
+	min-height: 50px;
+}
+
+.good {
+	background-color: dodgerblue;
+}
+
+.awesome {
+	background-color: deeppink;
+}
